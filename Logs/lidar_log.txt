@@ -1,0 +1,29 @@
+Script started on 2025-02-28 14:57:52-05:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;qcc@qcc: ~/logdata/HomeMapqcc@qcc:~/logdata/HomeMap$ [7mros2 launch create3_lidar_slam sensors_launch.py[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cros2 launch create3_lidar_slam sensors_launch.py
+[?2004l[INFO] [launch]: All log files can be found below /home/qcc/.ros/log/2025-02-28-14-58-03-324872-qcc-59132
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [static_transform_publisher-1]: process started with pid [59143]
+[static_transform_publisher-1] [WARN] [1740772683.696284614] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-1] [INFO] [1740772683.768485188] [static_transform_publisher_OARTyTYV3v38g036]: Spinning until stopped - publishing transform
+[static_transform_publisher-1] translation: ('-0.012000', '0.000000', '0.144000')
+[static_transform_publisher-1] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-1] from 'base_footprint' to 'laser_frame'
+[INFO] [rplidar_composition-2]: process started with pid [59167]
+[rplidar_composition-2] [INFO] [1740772685.786337689] [rplidar_node]: RPLidar running on ROS2 package rplidar_ros. RPLIDAR SDK Version:2.0.0
+[rplidar_composition-2] [INFO] [1740772685.840897894] [rplidar_node]: RPLidar S/N: B8F2EDF9C7E29BCEA7E39EF228214304
+[rplidar_composition-2] [INFO] [1740772685.841051004] [rplidar_node]: Firmware Ver: 1.29
+[rplidar_composition-2] [INFO] [1740772685.841089689] [rplidar_node]: Hardware Rev: 7
+[rplidar_composition-2] [INFO] [1740772685.892460921] [rplidar_node]: RPLidar health status : 0
+[rplidar_composition-2] [INFO] [1740772685.892602994] [rplidar_node]: RPLidar health status : OK.
+[rplidar_composition-2] [INFO] [1740772739.918975759] [rplidar_node]: Start
+[rplidar_composition-2] [INFO] [1740772740.615024872] [rplidar_node]: current scan mode: Sensitivity, sample rate: 8 Khz, max_distance: 12.0 m, scan frequency:10.0 Hz, 
+[rplidar_composition-2] [INFO] [1740774447.111798677] [rplidar_node]: Stop
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[static_transform_publisher-1] [INFO] [1740774452.984468976] [rclcpp]: signal_handler(signum=2)
+[INFO] [static_transform_publisher-1]: process has finished cleanly [pid 59143]
+[rplidar_composition-2] [INFO] [1740774453.329874415] [rplidar_node]: Stop motor
+[INFO] [rplidar_composition-2]: process has finished cleanly [pid 59167]
+[?2004h]0;qcc@qcc: ~/logdata/HomeMapqcc@qcc:~/logdata/HomeMap$ exit
+[?2004lexit
+
+Script done on 2025-02-28 15:27:36-05:00 [COMMAND_EXIT_CODE="0"]

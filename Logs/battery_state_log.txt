@@ -1,0 +1,27 @@
+Script started on 2025-02-28 15:11:00-05:00 [TERM="xterm" TTY="/dev/pts/9" COLUMNS="80" LINES="24"]
+ro  [?2004h]0;qcc@qcc: ~/logdata/HomeMapqcc@qcc:~/logdata/HomeMap$ row[Ks2 topic echo battery_[K[K[K[K[K[K[K[K/batterysta[K[K[K_state
+[?2004lheader:
+  stamp:
+    sec: 1740773492
+    nanosec: 206747035
+  frame_id: ''
+voltage: 15.293000221252441
+temperature: 40.04999923706055
+current: -0.7770000100135803
+charge: 1.4550000429153442
+capacity: 1.9550000429153442
+design_capacity: 1.9550000429153442
+percentage: 0.7400000095367432
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: true
+cell_voltage: []
+cell_temperature: []
+location: ''
+serial_number: ''
+---
+^C[?2004h]0;qcc@qcc: ~/logdata/HomeMapqcc@qcc:~/logdata/HomeMap$ exit
+[?2004lexit
+
+Script done on 2025-02-28 15:11:40-05:00 [COMMAND_EXIT_CODE="2"]
